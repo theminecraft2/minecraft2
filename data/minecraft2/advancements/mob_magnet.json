@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft2:mob_magnet"
+            }
+        }
+    },
+    "rewards": {
+        "function": "minecraft2:recipes/mob_magnet"
+    }
+}
