@@ -1,13 +1,14 @@
-{"parent": "libacraft:main",
+{
+    "parent": "libacraft:main",
     "criteria": {
         "Unlocked": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "recipe_id": "minecraft2:amulet_of_jump_boost"
+                "recipe_id": "minecraft2:tools/magic_wand"
             }
         }
     },
     "rewards": {
-        "function": "minecraft2:recipes/amulet_of_jump_boost"
+        "function": "minecraft2:recipes/tools/magic_wand"
     }
 }
