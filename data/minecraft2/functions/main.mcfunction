@@ -1,4 +1,3 @@
-# превет недодаун
 
 # the loop function 
 
@@ -13,7 +12,7 @@ function minecraft2:mob_magnet
 item replace entity @e[tag=mushroom_mob,nbt={Motion:[0.0d,0.0d,0.0d]}] armor.head with carved_pumpkin{CustomModelData:10}
 item replace entity @e[tag=mushroom_mob,nbt={Motion:[0.0d,0.0d,0.0d]}] armor.head with carved_pumpkin{CustomModelData:11}
 
-execute at @e[type=mooshroom,tag=!spawned,nbt={Age:0}] run summon zombie ~ ~ ~ {Tags:["mushroom_mob"],DeathLootTable:"minecraft2:entities/mushroom_mob",Silent:true,Attributes:[{Name:"generic.max_health",Base:60.0d}],ActiveEffects:[{Id:7,Amplifier:127b}]}
+execute at @e[type=mooshroom,tag=!spawned,nbt={Age:0}] run summon husk ~ ~ ~ {Tags:["mushroom_mob"],DeathLootTable:"minecraft2:entities/mushroom_mob",Silent:true,Attributes:[{Name:"generic.max_health",Base:60.0d}],ActiveEffects:[{Id:7,Amplifier:127b}]}
 execute at @e[type=mooshroom,tag=!spawned,nbt={Age:0}] run summon mooshroom ~ ~ ~ {Tags:["spawned"]}
 kill @e[type=mooshroom,tag=!spawned,nbt={Age:0}]
 
