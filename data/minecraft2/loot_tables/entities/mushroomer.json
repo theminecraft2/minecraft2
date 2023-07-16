@@ -22,11 +22,11 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:scute",
+                    "name": "minecraft:iron_ingot",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:11,display:{Name:'{\"text\":\"Грибниковая пластина\",\"italic\":false}'}}"
+                            "tag": "{CustomModelData:2,display:{Name:'{\"text\":\"Грибниковая пластина\",\"italic\":false}'}}"
                         },
                         {
                             "function": "minecraft:set_count",
