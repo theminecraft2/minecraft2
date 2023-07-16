@@ -13,6 +13,7 @@ function minecraft2:mob_magnet
 function minecraft2:mobs/mushroomer
 function minecraft2:mobs/forest_monster
 function minecraft2:mobs/goblin
+function minecraft2:mobs/grass_golem
 
 # предметы
 
