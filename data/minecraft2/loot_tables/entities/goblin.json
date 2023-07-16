@@ -12,7 +12,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:1,display:{Name:'{\"text\":\"Ценситовый слиток\",\"italic\":false}'}}"
+                            "tag": "{Tags:[\"mc2_cencite_ingot\"],CustomModelData:1,display:{Name:'{\"text\":\"Ценситовый слиток\",\"italic\":false}'}}"
                         },
                         {
                             "function": "minecraft:set_count",

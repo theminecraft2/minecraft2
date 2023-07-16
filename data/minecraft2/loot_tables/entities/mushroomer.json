@@ -26,7 +26,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:2,display:{Name:'{\"text\":\"Грибниковая пластина\",\"italic\":false}'}}"
+                            "tag": "{Tags:[\"mc2_mushroom_plate\"],CustomModelData:2,display:{Name:'{\"text\":\"Грибниковая пластина\",\"italic\":false}'}}"
                         },
                         {
                             "function": "minecraft:set_count",
