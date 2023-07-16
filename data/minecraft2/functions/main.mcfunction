@@ -10,7 +10,7 @@ function minecraft2:mob_magnet
 # мобы
 
 function minecraft2:mobs/mushroomer
-function minecraft2:mobs/forest_wood
+function minecraft2:mobs/forest_monster
 
 # предметы
 
