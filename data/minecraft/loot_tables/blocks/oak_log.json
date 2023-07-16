@@ -1,0 +1,33 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_log"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 49
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "knowledge_book",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Tags:[\"mc2_spawn_forest_monster\", \"clear\"]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

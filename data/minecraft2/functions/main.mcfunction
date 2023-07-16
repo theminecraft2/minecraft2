@@ -12,6 +12,7 @@ function minecraft2:mob_magnet
 function minecraft2:mobs/mushroomer
 function minecraft2:mobs/forest_monster
 function minecraft2:mobs/goblin
+
 # предметы
 
 function minecraft2:items/magic_wand
@@ -21,6 +22,7 @@ execute as @a run title @s actionbar [{"text":"Магическая энерги
 # stop editing
 
 execute at @e[nbt={Item: {tag: {Tags: ["remove"]}}}] run kill @e[type=item,distance=..1]
+clear @a #minecraft2:clear{Tags: ["clear"]}
 schedule function minecraft2:main 1s
 
 # datapack by fakeminer

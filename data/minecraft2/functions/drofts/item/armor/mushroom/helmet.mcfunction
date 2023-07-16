@@ -1,0 +1,1 @@
+execute as @p run function minecraft2:give/armor/mushroom/helmet
