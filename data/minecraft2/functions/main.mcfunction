@@ -11,7 +11,7 @@ function minecraft2:mob_magnet
 
 function minecraft2:mobs/mushroomer
 function minecraft2:mobs/forest_monster
-
+function minecraft2:mobs/goblin
 # предметы
 
 function minecraft2:items/magic_wand
