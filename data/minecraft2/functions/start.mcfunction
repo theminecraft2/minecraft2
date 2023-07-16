@@ -7,3 +7,5 @@ function minecraft2:piglins_king_loop
 function minecraft2:magic_energy_regen
 
 # datapack by fakeminer
+scoreboard objectives add motion_timer dummy
+scoreboard objectives add ambient_timer dummy
