@@ -1,6 +1,6 @@
-execute as @e[tag=forest_guardian,nbt={Motion: [0.0d, 0.0d, 0.0d]}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData: 7}
+execute as @e[tag=forest_guardian,nbt={Motion: [0.0d, 0.0d, 0.0d]}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData: 7,Tags:["clear"]}
 
-execute as @e[tag=forest_guardian,nbt=!{Motion: [0.0d, 0.0d, 0.0d]}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData: 8}
+execute as @e[tag=forest_guardian,nbt=!{Motion: [0.0d, 0.0d, 0.0d]}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData: 8,Tags:["clear"]}
 
 execute at @e[type=item,nbt={Item: {tag: {Tags: ["forest_guardian:small_bomb"]}}}] at @p run summon minecraft:fireball ~ ~5 ~ {ExplosionPower: 2, power: [0d, -1d, 0d]}
 

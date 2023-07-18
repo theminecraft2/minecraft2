@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Tags:[\"mc2_wooden_metal_ingot\"],CustomModelData:4,display:{Name:'{\"text\":\"Лесная ветка\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4.0,
+                                "max": 16
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
