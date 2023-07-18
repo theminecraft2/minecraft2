@@ -1,0 +1,1 @@
+give @s piglin_spawn_egg{CustomModelData: 1, EntityTag: {id: "husk", ActiveEffects: [{Id: 14, Amplifier: 10, Duration: 999999}, {Id: 10, Duration: 9999999, Amplifier: 1, ShowParticles: 0b}, {Id: 11, Duration: 9999999, Amplifier: 3, ShowParticles: 0b}, {Id: 12, Duration: 9999999, Amplifier: 255, ShowParticles: 0b}], Tags: ["forest_guardian"]}}

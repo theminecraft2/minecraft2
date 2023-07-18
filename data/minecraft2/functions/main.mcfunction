@@ -15,6 +15,8 @@ function minecraft2:mobs/forest_monster
 function minecraft2:mobs/goblin
 function minecraft2:mobs/grass_golem
 
+function minecraft2:bosses/forest_guardian
+
 # предметы
 
 function minecraft2:items/magic_wand
