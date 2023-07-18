@@ -1,1 +1,1 @@
-give @s netherite_sword{display: {Name: '{"text":"Магический жезл", "italic": false}'}, Tags: ["mc2_magic_wand"]}
+give @s netherite_sword{display: {Name: '{"text":"Магический жезл", "italic": false}'}, Tags: ["mc2_magic_wand"], CustomModelData: 1}
