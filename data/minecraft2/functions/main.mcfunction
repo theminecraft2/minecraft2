@@ -65,10 +65,8 @@ execute at @e[type=item,nbt={Item: {tag: {Tags: ["remove"]}}}] run kill @e[type=
 clear @a #minecraft2:clear{Tags: ["clear"]}
 schedule function minecraft2:main 1s
 
+#Block2 placing and destroying
+execute as @e[type=minecraft:item_frame,tag=smooth_oak_planks] run function minecraft2:blocks/smooth_oak_planks/place
+execute as @e[type=minecraft:armor_stand,tag=smooth_oak_planks] at @s unless block ~ ~ ~ minecraft:oak_planks run function minecraft2:blocks/smooth_oak_planks/destroy
 
-#places custom blocks on placed armor_stands
-execute at @e[type=armor_stand, tag=customBlock] if block ~ ~ ~ minecraft:air run function minecraft2:blocks/place
-
-#run break function on all item_display entites with air inside
-execute at @e[type=item_display, tag=placedCustomBlock] if block ~ ~ ~ minecraft:air run function minecraft:blocks/break
-# datapack by fakeminer
+#datapack by fakem1ner and kub1us
