@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Item:{id:"minecraft:armor_stand",Count:1b,tag:{CustomModelData:991102, display:{Name:'{"text":"Гладкие дубовые доски","italic":false}'} , EntityTag:{NoGravity:1b,Silent:1b,Invulnerable:1b,Marker:1b,Invisible:0b,Small:1b, Tags:["customBlock","smooth_oak","craftingTable"]}}}}

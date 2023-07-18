@@ -1,0 +1,3 @@
+execute at @e[type=armor_stand, tag=customBlock, tag=smooth_oak] if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:oak_planks{CustomName:'{"text":"Гладкие дубовые доски"}'}
+execute at @e[type=armor_stand, tag=customBlock, tag=smooth_oak] if block ~ ~ ~ minecraft:oak_planks run summon minecraft:item_display ~ ~.5 ~ {Tags:["placedCustomBlock","smooth_oak","craftingTable"],item_display: head, brightness:{sky:15,block:15}, item:{id:"minecraft:armor_stand", Count:1, tag:{CustomModelData:991102}}}
+execute at @e[type=armor_stand, tag=customBlock, tag=smooth_oak] if block ~ ~ ~ minecraft:oak_planks run kill @e[type=armor_stand, tag=customBlock, distance=..0.5]

@@ -65,4 +65,10 @@ execute at @e[type=item,nbt={Item: {tag: {Tags: ["remove"]}}}] run kill @e[type=
 clear @a #minecraft2:clear{Tags: ["clear"]}
 schedule function minecraft2:main 1s
 
+
+#places custom blocks on placed armor_stands
+execute at @e[type=armor_stand, tag=customBlock] if block ~ ~ ~ minecraft:air run function minecraft2:blocks/place
+
+#run break function on all item_display entites with air inside
+execute at @e[type=item_display, tag=placedCustomBlock] if block ~ ~ ~ minecraft:air run function minecraft:blocks/break
 # datapack by fakeminer
