@@ -65,9 +65,58 @@ execute at @e[type=item,nbt={Item: {tag: {Tags: ["remove"]}}}] run kill @e[type=
 clear @a #minecraft2:clear{Tags: ["clear"]}
 schedule function minecraft2:main 1s
 
-#Block2 placing and destroying
+#Гладкие дубовые доски
 execute as @e[type=minecraft:armor_stand,tag=smooth_oak_planks] run data merge entity @s {Fire:100s}
 execute as @e[type=minecraft:item_frame,tag=smooth_oak_planks] run function minecraft2:blocks/smooth_oak_planks/place
 execute as @e[type=minecraft:armor_stand,tag=smooth_oak_planks] at @s unless block ~ ~ ~ minecraft:oak_planks run function minecraft2:blocks/smooth_oak_planks/destroy
 
+#Гладкие еловые доски
+execute as @e[type=minecraft:armor_stand,tag=smooth_spruce_planks] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=smooth_spruce_planks] run function minecraft2:blocks/smooth_spruce_planks/place
+execute as @e[type=minecraft:armor_stand,tag=smooth_spruce_planks] at @s unless block ~ ~ ~ minecraft:spruce_planks run function minecraft2:blocks/smooth_spruce_planks/destroy
+
+#Гладкие берёзовые доски
+execute as @e[type=minecraft:armor_stand,tag=smooth_birch_planks] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=smooth_birch_planks] run function minecraft2:blocks/smooth_birch_planks/place
+execute as @e[type=minecraft:armor_stand,tag=smooth_birch_planks] at @s unless block ~ ~ ~ minecraft:birch_planks run function minecraft2:blocks/smooth_birch_planks/destroy
+
+#Гладкие джунглевые доски
+execute as @e[type=minecraft:armor_stand,tag=smooth_jungle_planks] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=smooth_jungle_planks] run function minecraft2:blocks/smooth_jungle_planks/place
+execute as @e[type=minecraft:armor_stand,tag=smooth_jungle_planks] at @s unless block ~ ~ ~ minecraft:jungle_planks run function minecraft2:blocks/smooth_jungle_planks/destroy
+
+#Гладкие акациевые доски
+execute as @e[type=minecraft:armor_stand,tag=smooth_acacia_planks] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=smooth_acacia_planks] run function minecraft2:blocks/smooth_acacia_planks/place
+execute as @e[type=minecraft:armor_stand,tag=smooth_acacia_planks] at @s unless block ~ ~ ~ minecraft:acacia_planks run function minecraft2:blocks/smooth_acacia_planks/destroy
+
+#Гладкие доски из тёмного дума
+execute as @e[type=minecraft:armor_stand,tag=smooth_dark_oak_planks] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=smooth_dark_oak_planks] run function minecraft2:blocks/smooth_dark_oak_planks/place
+execute as @e[type=minecraft:armor_stand,tag=smooth_dark_oak_planks] at @s unless block ~ ~ ~ minecraft:dark_oak_planks run function minecraft2:blocks/smooth_dark_oak_planks/destroy
+
+#Гладкие мангровые доски
+execute as @e[type=minecraft:armor_stand,tag=smooth_mangrove_planks] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=smooth_mangrove_planks] run function minecraft2:blocks/smooth_mangrove_planks/place
+execute as @e[type=minecraft:armor_stand,tag=smooth_mangrove_planks] at @s unless block ~ ~ ~ minecraft:mangrove_planks run function minecraft2:blocks/smooth_mangrove_planks/destroy
+
+#Гладкие искажённые доски
+execute as @e[type=minecraft:armor_stand,tag=smooth_warped_planks] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=smooth_warped_planks] run function minecraft2:blocks/smooth_warped_planks/place
+execute as @e[type=minecraft:armor_stand,tag=smooth_warped_planks] at @s unless block ~ ~ ~ minecraft:warped_planks run function minecraft2:blocks/smooth_warped_planks/destroy
+
+#Гладкие багровые доски
+execute as @e[type=minecraft:armor_stand,tag=smooth_crimson_planks] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=smooth_crimson_planks] run function minecraft2:blocks/smooth_crimson_planks/place
+execute as @e[type=minecraft:armor_stand,tag=smooth_crimson_planks] at @s unless block ~ ~ ~ minecraft:crimson_planks run function minecraft2:blocks/smooth_crimson_planks/destroy
+
+#Гладкие бамбуковые доски
+execute as @e[type=minecraft:armor_stand,tag=smooth_bamboo_planks] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=smooth_bamboo_planks] run function minecraft2:blocks/smooth_bamboo_planks/place
+execute as @e[type=minecraft:armor_stand,tag=smooth_bamboo_planks] at @s unless block ~ ~ ~ minecraft:bamboo_planks run function minecraft2:blocks/smooth_bamboo_planks/destroy
+
+#Гладкие вищнёвые доски
+execute as @e[type=minecraft:armor_stand,tag=smooth_cherry_planks] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=smooth_cherry_planks] run function minecraft2:blocks/smooth_cherry_planks/place
+execute as @e[type=minecraft:armor_stand,tag=smooth_cherry_planks] at @s unless block ~ ~ ~ minecraft:cherry_planks run function minecraft2:blocks/smooth_cherry_planks/destroy
 #datapack by fakem1ner and kub1us
