@@ -1,5 +1,4 @@
-# я фокеминер
-# я кубиус превет
+
 # the loop function 
 
 # piglins' king spawning
@@ -8,7 +7,7 @@ execute at @e[type=item,nbt={Item: {tag: {Tags: ["amulet_of_spawn_piglins_king"]
 
 function minecraft2:mob_magnet
 
-# мобы
+# Mobs
 
 function minecraft2:mobs/mushroomer
 function minecraft2:mobs/forest_monster
@@ -17,7 +16,7 @@ function minecraft2:mobs/grass_golem
 
 function minecraft2:bosses/forest_guardian
 
-# предметы
+# items
 
 function minecraft2:items/magic_wand
 
@@ -65,6 +64,7 @@ execute at @e[type=item,nbt={Item: {tag: {Tags: ["remove"]}}}] run kill @e[type=
 clear @a #minecraft2:clear{Tags: ["clear"]}
 schedule function minecraft2:main 1s
 
+#blocks
 #Гладкие дубовые доски
 execute as @e[type=minecraft:armor_stand,tag=smooth_oak_planks] run data merge entity @s {Fire:100s}
 execute as @e[type=minecraft:item_frame,tag=smooth_oak_planks] run function minecraft2:blocks/smooth_oak_planks/place
@@ -115,8 +115,33 @@ execute as @e[type=minecraft:armor_stand,tag=smooth_bamboo_planks] run data merg
 execute as @e[type=minecraft:item_frame,tag=smooth_bamboo_planks] run function minecraft2:blocks/smooth_bamboo_planks/place
 execute as @e[type=minecraft:armor_stand,tag=smooth_bamboo_planks] at @s unless block ~ ~ ~ minecraft:bamboo_planks run function minecraft2:blocks/smooth_bamboo_planks/destroy
 
-#Гладкие вищнёвые доски
+#Гладкие вишнёвые доски
 execute as @e[type=minecraft:armor_stand,tag=smooth_cherry_planks] run data merge entity @s {Fire:100s}
 execute as @e[type=minecraft:item_frame,tag=smooth_cherry_planks] run function minecraft2:blocks/smooth_cherry_planks/place
 execute as @e[type=minecraft:armor_stand,tag=smooth_cherry_planks] at @s unless block ~ ~ ~ minecraft:cherry_planks run function minecraft2:blocks/smooth_cherry_planks/destroy
+
+#Вердантрия
+execute as @e[type=minecraft:armor_stand,tag=verdantria_log] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=verdantria_log] run function minecraft2:blocks/verdantria_log/place
+execute as @e[type=minecraft:armor_stand,tag=verdantria_log] at @s unless block ~ ~ ~ minecraft:oak_log run function minecraft2:blocks/verdantria_log/destroy
+
+#Обтёсанное вердантривое бревно
+execute as @e[type=minecraft:armor_stand,tag=stripped_verdantria_log] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=stripped_verdantria_log] run function minecraft2:blocks/stripped_verdantria_log/place
+execute as @e[type=minecraft:armor_stand,tag=stripped_verdantria_log] at @s unless block ~ ~ ~ minecraft:stripped_oak_log run function minecraft2:blocks/stripped_verdantria_log/destroy
+
+#Вердантривые доски
+execute as @e[type=minecraft:armor_stand,tag=verdantria_planks] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=verdantria_planks] run function minecraft2:blocks/verdantria_planks/place
+execute as @e[type=minecraft:armor_stand,tag=verdantria_planks] at @s unless block ~ ~ ~ minecraft:oak_planks run function minecraft2:blocks/verdantria_planks/destroy
+
+#Гладкие вердантривые доски
+execute as @e[type=minecraft:armor_stand,tag=smooth_verdantria_planks] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=smooth_verdantria_planks] run function minecraft2:blocks/smooth_verdantria_planks/place
+execute as @e[type=minecraft:armor_stand,tag=smooth_verdantria_planks] at @s unless block ~ ~ ~ minecraft:oak_planks run function minecraft2:blocks/smooth_verdantria_planks/destroy
+
+#Вердантривые листья
+execute as @e[type=minecraft:armor_stand,tag=verdantria_leaves] run data merge entity @s {Fire:100s}
+execute as @e[type=minecraft:item_frame,tag=verdantria_leaves] run function minecraft2:blocks/verdantria_leaves/place
+execute as @e[type=minecraft:armor_stand,tag=verdantria_leaves] at @s unless block ~ ~ ~ minecraft:oak_leaves run function minecraft2:blocks/verdantria_leaves/destroy
 #datapack by fakem1ner and kub1us
