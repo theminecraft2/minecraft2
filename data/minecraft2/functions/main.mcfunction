@@ -1,4 +1,8 @@
+execute as @a[nbt={SelectedItem:{tag:{Tags:["mossy_flesh"]}}}] run scoreboard players set @s selected_mossy_flesh 1
+execute as @a[scores={selected_mossy_flesh=1}] if entity @s[nbt={SelectedItem:{tag:{Tags:["mossy_flesh"]}}}] run scoreboard players set @s selected_mossy_flesh 0
 
+execute as @a[scores={selected_mossy_flesh=1}] if entity @s[scores={eat_mossy_flesh=1..}] run effect give @s minecraft:resistance 5 1 true
+scoreboard players set @a eat_mossy_flesh 0
 # the loop function 
 
 # piglins' king spawning
@@ -11,6 +15,7 @@ function minecraft2:mob_magnet
 
 function minecraft2:mobs/mushroomer
 function minecraft2:mobs/forest_monster
+function minecraft2:mobs/forest_zombie
 function minecraft2:mobs/goblin
 function minecraft2:mobs/grass_golem
 

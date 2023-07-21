@@ -9,3 +9,5 @@ function minecraft2:magic_energy_regen
 # datapack by fakeminer
 scoreboard objectives add motion_timer dummy
 scoreboard objectives add ambient_timer dummy
+scoreboard objectives add selected_mossy_flesh dummy
+scoreboard objectives add eat_mossy_flesh minecraft.used:minecraft.bread
