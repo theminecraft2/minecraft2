@@ -1,0 +1,3 @@
+execute as @e[type=minecraft:armor_stand,tag=smooth_cherry_planks] run data merge entity @s {Fire: 100s}
+execute as @e[type=minecraft:item_frame,tag=smooth_cherry_planks] run function minecraft2:blocks/smooth_cherry_planks/place
+execute as @e[type=minecraft:armor_stand,tag=smooth_cherry_planks] at @s unless block ~ ~ ~ minecraft:cherry_planks run function minecraft2:blocks/smooth_cherry_planks/destroy
