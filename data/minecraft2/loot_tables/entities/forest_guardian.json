@@ -6,6 +6,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_ingot",
+                    "weight": 700,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
