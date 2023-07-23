@@ -1,3 +1,0 @@
-execute as @e[type=minecraft:armor_stand,tag=smooth_mangrove_planks] run data merge entity @s {Fire: 100s}
-execute as @e[type=minecraft:item_frame,tag=smooth_mangrove_planks] run function minecraft2:blocks/smooth_mangrove_planks/place
-execute as @e[type=minecraft:armor_stand,tag=smooth_mangrove_planks] at @s unless block ~ ~ ~ minecraft:mangrove_planks run function minecraft2:blocks/smooth_mangrove_planks/destroy
