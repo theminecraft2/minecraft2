@@ -1,1 +1,0 @@
-give @s minecraft:scute{display:{Name:'{"text":"Амулет прыгучести","italic":false,"color":"yellow"}'},CustomModelData:2,Tags:["amulet_of_jump_boost"]}

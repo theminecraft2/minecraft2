@@ -1,1 +1,0 @@
-give @s minecraft:zombie_spawn_egg{CustomModelData: 2, EntityTag: {id: "minecraft:husk", Tags: ["goblin"], DeathLootTable: "minecraft2:entities/goblin", Silent: true, Attributes: [{Name: "generic.max_health", Base: 10.0d}], ActiveEffects: [{Id: 7, Amplifier: 127b}, {Id: 14, Amplifier: 10b, Duration: 999999}]}, display: {Name: '{"text":"Яйцо призыва гоблина","italic":false}'}}

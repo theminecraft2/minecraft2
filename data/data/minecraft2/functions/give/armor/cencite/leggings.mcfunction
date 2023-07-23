@@ -1,1 +1,0 @@
-give @p minecraft:diamond_leggings{AttributeModifiers: [{AttributeName: "generic.attack_speed", Amount: 1, Slot: legs, UUID: [I; -123616, 1517, 194515, -3034]}, {AttributeName: "generic.armor", Amount: 6, Slot: legs, UUID: [I; -123616, 1517, 194515, -3034]}],CustomModelData:2,display:{Name:'{"text":"Ценситовые поножи", "italic": false}'},Tags:["mc2_cencite_leggings"]}

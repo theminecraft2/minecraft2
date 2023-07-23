@@ -1,1 +1,0 @@
-give @s minecraft:scute{display:{Name:'{"text":"Амулет скорости","italic":false,"color":"yellow"}'},CustomModelData:6,Tags:["amulet_of_speed"]}

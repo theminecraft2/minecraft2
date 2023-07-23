@@ -1,1 +1,0 @@
-give @s iron_ingot{CustomModelData: 2, display: {Name: '{"text":"Грибниковая пластина","italic":false}'}, Tags: ["mc2_mushroom_plate"]}

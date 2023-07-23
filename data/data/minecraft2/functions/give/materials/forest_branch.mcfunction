@@ -1,1 +1,0 @@
-give @s iron_ingot{CustomModelData: 4, display: {Name: '{"text":"Лесная ветка","italic":false}'}, Tags: ["mc2_forest_branch"]}

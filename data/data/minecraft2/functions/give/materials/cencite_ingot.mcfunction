@@ -1,1 +1,0 @@
-give @s iron_ingot{CustomModelData: 1, display: {Name: '{"text":"Ценситовый слиток","italic":false}'}, Tags: ["mc2_cencite_ingot"]}

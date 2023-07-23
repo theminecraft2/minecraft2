@@ -1,1 +1,0 @@
-give @s bee_spawn_egg{CustomModelData:14,EntityTag:{id:"minecraft:armor_stand",Marker:1b,Invisible:1b,Tags:["foliader_log","block"]},display:{Name:'{"text":"Фолиадеровое бревно","italic":false}'}}

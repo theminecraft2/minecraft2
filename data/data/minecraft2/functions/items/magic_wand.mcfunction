@@ -1,4 +1,0 @@
-execute at @a[scores={mc2_damage=10..,mc2_magic_energy=10..20},nbt={SelectedItem: {id: "minecraft:netherite_sword", tag: {Tags: ["mc2_magic_wand"]}}}] run effect give @e[limit=1,sort=nearest,type=!player] wither 10 255 true
-execute at @a[scores={mc2_damage=10..,mc2_magic_energy=10..20},nbt={SelectedItem: {id: "minecraft:netherite_sword", tag: {Tags: ["mc2_magic_wand"]}}}] run effect give @e[limit=1,sort=nearest,type=!player] slowness 10 255 true
-execute as @a[scores={mc2_damage=10..,mc2_magic_energy=10..20},nbt={SelectedItem: {id: "minecraft:netherite_sword", tag: {Tags: ["mc2_magic_wand"]}}}] run scoreboard players remove @s mc2_magic_energy 10
-execute as @a[scores={mc2_damage=1..200}] run scoreboard players set @s mc2_damage 0

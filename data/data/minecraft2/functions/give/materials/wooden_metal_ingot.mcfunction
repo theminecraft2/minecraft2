@@ -1,1 +1,0 @@
-give @s iron_ingot{CustomModelData: 3, display: {Name: '{"text":"Слиток деревянного металла","italic":false}'}, Tags: ["mc2_wooden_metal_ingot"]}

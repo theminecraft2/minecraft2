@@ -1,1 +1,0 @@
-give @s minecraft:scute{display:{Name:'{"text":"Амулет огнестойкости","italic":false,"color":"yellow"}'},CustomModelData:1,Tags:["amulet_of_fire_resistance"]}

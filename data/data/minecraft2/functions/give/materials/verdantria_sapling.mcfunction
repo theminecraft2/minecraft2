@@ -1,1 +1,0 @@
-give @s oak_sapling{CustomModelData: 1, display: {Name: '{"text":"Вердантритривый саженец","italic":false}'}, Tags: ["verdantria_sapling"]}

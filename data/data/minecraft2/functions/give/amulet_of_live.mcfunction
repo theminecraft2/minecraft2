@@ -1,1 +1,0 @@
-give @s minecraft:scute{display:{Name:'{"text":"Амулет жизни","italic":false,"color":"yellow"}'},CustomModelData:3,Tags:["amulet_of_live"]}
