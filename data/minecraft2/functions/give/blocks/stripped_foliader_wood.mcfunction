@@ -1,0 +1,1 @@
+give @s bee_spawn_egg{CustomModelData:17,EntityTag:{id:"minecraft:armor_stand",Marker:1b,Invisible:1b,Tags:["stripped_foliader_wood","block"]},display:{Name:'{"text":"Обтёсанная фолиадеровая древесина","italic":false}'}}

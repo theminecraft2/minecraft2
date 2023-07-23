@@ -1,0 +1,1 @@
+give @s bee_spawn_egg{CustomModelData:11,EntityTag:{id:"minecraft:armor_stand",Marker:1b,Invisible:1b,Tags:["smooth_bamboo_planks","block"]},display:{Name:'{"text":"Гладкие бамбуковые доски","italic":false}'}}

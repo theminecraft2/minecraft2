@@ -1,0 +1,1 @@
+give @s minecraft:scute{display:{Name:'{"text":"Амулет водного дыхания","italic":false,"color":"yellow"}'},CustomModelData:8,Tags:["amulet_of_water_breathing"]}

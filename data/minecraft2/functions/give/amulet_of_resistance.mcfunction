@@ -1,0 +1,1 @@
+give @s minecraft:scute{display:{Name:'{"text":"Амулет сопротивления","italic":false,"color":"yellow"}'},CustomModelData:5,Tags:["amulet_of_resistance"]}
