@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=foliader_leaves] at @s unless block ~ ~ ~ azalea_leaves[persistent=true] run function minecraft2:blocks/destroy/foliader_leaves

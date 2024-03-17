@@ -4,11 +4,11 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "recipe_id": "minecraft2:amulet_of_fire_resistance"
+                "recipe_id": "minecraft2:amulet/amulet_of_fire_resistance"
             }
         }
     },
     "rewards": {
-        "function": "minecraft2:recipes/amulet_of_fire_resistance"
+        "function": "minecraft2:recipes/amulets/amulet_of_fire_resistance"
     }
 }

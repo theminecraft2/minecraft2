@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=foliader_log] at @s unless block ~ ~ ~ oak_log run function minecraft2:blocks/destroy/foliader_log

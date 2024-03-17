@@ -3,11 +3,11 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "recipe_id": "minecraft2:amulet_of_night_vision"
+                "recipe_id": "minecraft2:amulets/amulet_of_jump_boost"
             }
         }
     },
     "rewards": {
-        "function": "minecraft2:recipes/amulet_of_night_vision"
+        "function": "minecraft2:recipes/amulets/amulet_of_jump_boost"
     }
 }

@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=smooth_crimson_planks] at @s unless block ~ ~ ~ crimson_planks run function minecraft2:blocks/destroy/smooth_crimson_planks

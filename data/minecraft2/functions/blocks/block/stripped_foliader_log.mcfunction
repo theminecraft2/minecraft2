@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=stripped_foliader_log] at @s unless block ~ ~ ~ stripped_oak_log run function minecraft2:blocks/destroy/stripped_foliader_log

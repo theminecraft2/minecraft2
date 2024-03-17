@@ -3,11 +3,11 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "recipe_id": "minecraft2:amulet_of_resistance"
+                "recipe_id": "minecraft2:amulets/amulet_of_resistance"
             }
         }
     },
     "rewards": {
-        "function": "minecraft2:recipes/amulet_of_resistance"
+        "function": "minecraft2:recipes/amulets/amulet_of_resistance"
     }
 }

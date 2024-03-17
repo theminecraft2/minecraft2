@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=stripped_foliader_wood] at @s unless block ~ ~ ~ stripped_oak_wood run function minecraft2:blocks/destroy/stripped_foliader_wood

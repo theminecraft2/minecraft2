@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=smooth_acacia_planks] at @s unless block ~ ~ ~ acacia_planks run function minecraft2:blocks/destroy/smooth_acacia_planks

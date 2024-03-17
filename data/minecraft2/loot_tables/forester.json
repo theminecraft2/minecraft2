@@ -67,27 +67,9 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 0,
                 "max": 16
               }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 300,
-          "name": "minecraft:oak_sapling",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData: 1, display: {Name: '{\"text\":\"Вердантритривый саженец\",\"italic\":false}'}, Tags: [\"verdantria_sapling\"]}"
             }
           ]
         }

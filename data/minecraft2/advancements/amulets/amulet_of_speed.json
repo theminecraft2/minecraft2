@@ -3,11 +3,11 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "recipe_id": "minecraft2:amulet_of_water_breathing"
+                "recipe_id": "minecraft2:amulets/amulet_of_speed"
             }
         }
     },
     "rewards": {
-        "function": "minecraft2:recipes/amulet_of_water_breathing"
+        "function": "minecraft2:recipes/amulets/amulet_of_speed"
     }
 }

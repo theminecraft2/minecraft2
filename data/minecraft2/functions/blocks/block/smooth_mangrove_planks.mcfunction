@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=smooth_mangrove_planks] at @s unless block ~ ~ ~ mangrove_planks run function minecraft2:blocks/destroy/smooth_mangrove_planks

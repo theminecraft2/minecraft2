@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=smooth_warped_planks] at @s unless block ~ ~ ~ warped_planks run function minecraft2:blocks/destroy/smooth_warped_planks

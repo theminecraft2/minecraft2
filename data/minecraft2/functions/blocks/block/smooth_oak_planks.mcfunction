@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=smooth_oak_planks] at @s unless block ~ ~ ~ oak_planks run function minecraft2:blocks/destroy/smooth_oak_planks
